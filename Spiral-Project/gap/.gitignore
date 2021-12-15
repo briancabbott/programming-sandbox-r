@@ -1,0 +1,106 @@
+/GNUmakefile
+/autom4te.cache/
+/cnf/GAP-VERSION-FILE
+/cnf/GAP-CFLAGS
+/cnf/GAP-CXXFLAGS
+/cnf/GAP-CPPFLAGS
+/cnf/GAP-LDFLAGS
+/cnf/GAP-LIBS
+/cnf/GAP-OBJS
+/config.log
+/config.status
+/configure
+/confdefs.h
+/conftest*
+/libtool
+/src/config.h.in
+/src/config.h.in~
+
+**/__pycache__/
+
+/build/
+/extern/build/
+/extern/install/
+
+/ffgen
+/gac
+/gap
+/sysinfo.gap
+/sysinfo.gap-*
+
+/bin/gap*.sh
+/bin/*-*/
+# Compiling the `xgap` package creates the file `xgap.sh`
+/bin/xgap.sh
+
+# TeX outputs, can occur in doc/ and dev/
+*.aux
+*.bbl
+*.blg
+*.brf
+*.dvi
+*.ilg
+*.ind
+*.lab
+*.log
+main.out
+*.pdf
+*.pnr
+*.six
+*.synctex.gz
+*.toc
+
+# Documentation
+/doc/make_doc
+/doc/wsp.g
+doc/manualbib.xml.bib
+doc/*/*.html
+doc/*/*.txt
+doc/*/*.css
+doc/*/*.js
+doc/*/*.idx
+doc/*/*.tex
+/doc/*/*.out
+doc/gapmacrodoc.example-1.tst
+doc/gapmacrodoc.idx
+
+# GAP packages
+/bootstrap-pkg-full.tar.gz
+/bootstrap-pkg-minimal.tar.gz
+/pkg
+
+# external dependencies
+/extern/gmp*/
+
+# tests, test logs, package build logs
+/dev/log
+/log
+/tst/testmanuals/*.tst
+
+# failed application of patches can produce .rej and .orig files
+*.rej
+*.orig
+
+# ctags output
+/tags
+/src/TAGS
+
+/builds/
+
+/libgap.la
+.libs/
+
+/tst/testlibgap/api
+/tst/testlibgap/basic
+/tst/testlibgap/wscreate
+/tst/testlibgap/wsload
+/tst/testlibgap/trycatch
+/tst/testlibgap/*.out
+
+/tst/testkernel/dstruct
+/tst/testkernel/*.out
+
+# emacs backup and lock files
+*~
+\#*\#
+.\#*
